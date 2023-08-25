@@ -1,8 +1,9 @@
 export default function Features() {
   return (
     <section id="roadmap">
-      <div id="boxes" className="md:mt-10 mt-6 flex justify-center py-8 flex-wrap">
-    
+      <p className="text-center md:mt-10 mt-6 font-bold text-xl md:text-2xl fire text-red-500">Tokenomics</p>
+      <div id="boxes" className=" flex justify-center py-8 flex-wrap">
+      
     <div className="w-full md:w-1/4 my-6  bg-gradient-to-r from-[#020C15] to-[#2a4664] shadow-md rounded-lg md:mx-4">
     <div className="relative">
             <img
