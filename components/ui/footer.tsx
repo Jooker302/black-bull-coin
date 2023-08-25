@@ -139,7 +139,7 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">Listed on Arbitrum Chain </div>
+            <div className="text-gray-400 text-sm mr-4">Listed on Binance Smart Chain </div>
 
           </div>
 
