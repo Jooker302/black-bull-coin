@@ -19,8 +19,8 @@ const architects_daughter = Architects_Daughter({
 })
 
 export const metadata = {
-  title: 'Vampire Shiba',
-  description: 'Vampire Shiba on DxSale',
+  title: 'Black Bull Coin',
+  description: 'Black Bull Coin on DxSale',
 }
 
 export default function RootLayout({

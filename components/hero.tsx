@@ -22,13 +22,23 @@ export default function Hero() {
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
 
+        <div className="flex justify-center items-center"> {/* Flexbox container */}
+    <img
+      className='rounded-full md:w-96 md:h-96 self-center'
+      src="/main.jpeg"
+      width={1024}
+      height={576}
+      alt=""
+    />
+  </div>
+
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Vampire Shiba: Unleash the Power of Memes! 🐕🦇🌕</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Introducing Vampire Shiba, the ultimate memecoin that combines the adorableness of the Shiba Inu with the mysterious allure of vampires. As a hybrid of two internet sensations.</p>
+          <div className="max-w-3xl mt-3 mx-auto text-center pb-6 md:pb-6">
+            <h1 className="h1 mb-4" data-aos="fade-up"><span className='text-red-500'>Black Bull</span>: Igniting Potential, Embracing Possibilities 🌐🐂🚀</h1>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Presenting "Black Bull" – an avant-garde crypto token set to reshape our perception of digital financial instruments.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-[#EB5161] hover:bg-red-500 w-full mb-4 sm:w-auto sm:mb-0" href="#">Get Started</a>
+                <a className="btn text-white bg-[#2A4664] hover:bg-[#020C15] w-full mb-4 sm:w-auto sm:mb-0" href="#">Let's Start</a>
               </div>
               {/* <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
@@ -36,11 +46,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <img
-            src="/main.jpeg"
-            width={1024}
-            height={576}
-            alt="" />
+          
 
         </div>
 
